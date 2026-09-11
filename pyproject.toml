@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vector-index-ann-engine"
+version = "0.1.0"
+description = "Approximate Nearest Neighbor (ANN) vector indexing engine using HNSW graph algorithm in Python."
+authors = [{name = "shaebaratheon"}]
+dependencies = ["pydantic>=2.0.0", "typing-extensions>=4.5.0"]
